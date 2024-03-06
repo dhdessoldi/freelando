@@ -6,6 +6,7 @@ const StyledDiv = styled.div`
   border: 1px solid;
   border-color: ${props => props.theme.colors.primary.a};
   border-radius: ${props => props.theme.sizes.s};
+
 `
 
 export const Card = ({children}) => {
