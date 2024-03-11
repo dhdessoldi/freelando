@@ -17,6 +17,7 @@ const InputStyled = styled.input`
   width: 100%;
   box-sizing: border-box;
   margin-top: ${props => props.theme.sizes.xs};
+  margin-bottom: ${props => props.theme.sizes.xs};
   background: ${props => props.theme.colors.white};
   border: 1px solid;
   border-radius: ${props => props.theme.sizes.s};

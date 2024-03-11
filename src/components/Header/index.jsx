@@ -1,4 +1,5 @@
 import styled from '@emotion/styled'
+import { Typography } from '../Typography'
 
 const StyledDiv = styled.div`
   padding: ${props => props.theme.sizes.m};
@@ -10,8 +11,8 @@ const StyledDiv = styled.div`
 export const Header = () => {
   return (
     <StyledDiv>
-      <p>freelando</p>
-      <a href='#'>Login</a>
+      <Typography type='body2' component='body'>Freelando</Typography>
+      <Typography type='a' component='a' href='#'>Login</Typography>
     </StyledDiv>
   )
 }

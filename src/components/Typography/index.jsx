@@ -3,6 +3,7 @@ import styled from "@emotion/styled"
 const components = {
   h1: 'h1',
   body: 'p',
+  a: 'a',
 }
 
 const styles = {
@@ -25,6 +26,20 @@ const styles = {
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
+  `,
+  body2: `
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+  `,
+  a: `
+    text-decoration: none;
+    margin: auto 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
   `,
 }
 
